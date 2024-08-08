@@ -38,7 +38,7 @@ const Properties = () => {
 
   return (
     <>
-      <main className=" row p-5 ">
+      <main className=" row  property-card" id="property">
         <div className="container">
           <div className="d-flex justify-content-between m-2">
             <div className="d-flex gap-3">
@@ -80,7 +80,7 @@ const Properties = () => {
 
               return (
                 <div key={id} className="col-md-4 mb-4">
-                  <Card className="rounded-3 card-inner position-relative card-hover">
+                  <Card className="rounded-3 card-inner position-relative card-hover w-100">
                     <div className="position-relative">
                       <Card.Img variant="top" src={image} className="w-100" />
                       <div className="position-absolute top-0 start-0 p-3 feature">

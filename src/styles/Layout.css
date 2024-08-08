@@ -28,7 +28,9 @@
 .bed{
   /* margin-top: 1rem; */
   margin-bottom: 10px;
+
 }
+
 
 .search-form {
   background-color: white !important;
@@ -42,6 +44,10 @@
   text-align: left;
 }
 
+.hero-search input{
+  border: 0;
+  background-color: transparent;
+}
 .find-property {
   background-color: hsla(153, 43%, 42%, 1);
   border-top-right-radius: 10px;
@@ -128,6 +134,9 @@
   font-weight: 500;
 }
 
+.property-card{
+  padding: 5rem;
+}
 
 /* footer*/
 
@@ -180,6 +189,10 @@ text-align: left;
     gap: 6rem;
   }
 
+  .property-card{
+    padding: 1rem;
+  }
+  
   .logo {
     width: 50%;
   }
@@ -227,6 +240,7 @@ text-align: left;
     margin-left: 5rem;
     /* text-align: center; */
     margin-top: 5px;
+    padding-left: 1.5rem;
   }
   .circle-button {
     border: 1px solid;

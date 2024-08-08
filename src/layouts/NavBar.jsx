@@ -78,25 +78,25 @@ const NavBar = ({ userId }) => {
                   Home
                 </Nav.Link>
                 <Nav.Link
-                  href="#link"
+                  href="#property"
                   className="text-white nav-link text-center"
                 >
                   Properties
                 </Nav.Link>
                 <Nav.Link
-                  href="#link"
+                  href="#about"
                   className="text-white nav-link text-center"
                 >
                   About Us
                 </Nav.Link>
                 <Nav.Link
-                  href="#link"
+                  href="#blog"
                   className="text-white nav-link text-center"
                 >
                   Blog
                 </Nav.Link>
                 <Nav.Link
-                  href="#link"
+                  href="#blog"
                   className="text-white nav-link text-center"
                 >
                   Contact Us
